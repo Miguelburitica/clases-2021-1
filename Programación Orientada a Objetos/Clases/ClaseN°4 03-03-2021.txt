@@ -1,0 +1,23 @@
+Profesor: Jean Pierre Charalambos Hernandez
+Clase N°4 del 03/03/2021
+Programación Orientada a Objetos
+
+repasar comandos pushStyle/popStyle
+
+Comando beginShape(); debe cerrar con un endShape
+
+Para los interesados en js, computed property
+
+
+
+
+
+
+
+
+
+
+
+
+
+

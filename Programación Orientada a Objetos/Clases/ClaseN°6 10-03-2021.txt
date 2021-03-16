@@ -1,0 +1,63 @@
+Profesor: Jean Pierre Charalambos Hernandez
+Clase N°6 del 10/03/2021
+Programación Orientada a Objetos
+
+Global variables con final -> nombreVariable = valor
+numero aleatorios rant
+
+Processing videos: https://www.youtube.com/c/Airroom
+
+Distibución linux Garuda
+
+pushStyle()
+popStyle()
+
+read git book chapter 1 and 2
+
+medium blog
+
+wired magazine
+
+Silk Road 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

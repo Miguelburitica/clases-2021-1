@@ -1,0 +1,21 @@
+Profesor: Jean Pierre Charalambos Hernandez
+Clase N°3 del 01/03/2021
+Programación Orientada a Objetos
+
+---Libertades del Free software---
+
+- Freedom 0: The freedom to run the program for any purpose.
+- Freedom 1: The freedom to study how the program works, and change it to make it do what you wish.
+- Freedom 2: The freedom to redistribute and make copies so you can help your neighbour.
+- Freedom 3: The freedom to improve the program, and release your improvements (and modified versions in general) to the public, so that the whole community benefits
+
+Links clase:
+- https://blog.desdelinux.net/wp-content/uploads/2012/11/ykpjm.jpg.png
+- https://web.archive.org/web/20070829215908/http://www.gnu.org.pe/resmseng.html
+
+
+
+
+
+
+

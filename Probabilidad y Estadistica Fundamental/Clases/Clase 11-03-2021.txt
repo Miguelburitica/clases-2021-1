@@ -1,0 +1,75 @@
+Profesor: Oscar Javier Pacheco Perez
+Clase N°5 del 09/03/2021
+Probabilidad y Estadística Fundamental
+
+Probabilidad
+	Espacios muestrales y eventos
+	Def. El espacio muestral de un experimento, S{}(conjunto) es el conjunto de todos los posibles resultados de ese experimento
+	Ej: S = {N, D}
+
+	Def2. Un evento A es cualquier subconjunto de S.
+	Un evento simple es un subconjunto de S con un solo elemento.
+	Un evento compuesto es uin subconjunto de S con más de un resultado.
+	Ej: En el ejemplo de lanzar una moneda 3 veces
+	A: se observa unicamente cara; A = {CCC} 
+	B: se observa un sello; B = {CCS, CSC, SCC}
+	C: se observan dos caras; C = {}
+
+Axioma 1: Para cualquier evento A, P(A) >= 0
+Axioma 2: P(S) = 1
+Axioma 3: la probabiliad de la union de todos los eventos es igual a la sumatoria de la probabilidad de todos los eventos
+
+Propiedad 1
+	-P(vacío) = 0
+
+	Probabilidad clasica
+		P(A) = (n(A)/n(S))
+
+		si las probabilidades son iguales.
+
+Propiedad 2
+	Para cualquier evento A, P(A) + P(A¬) = 1, P(A) = 1 - P(A¬)
+
+	Ej:
+		S = {1, 2, 3, 4, 5, 6}
+		A: Obtener 6
+		A¬: No obtiene 6
+		P(A) = 1/6; P(A¬) = 5/6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

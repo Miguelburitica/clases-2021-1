@@ -1,0 +1,36 @@
+Profesor: Jean Pierre Charalambos Hernandez
+Clase N°2 del 24/02/2021
+Programación Orientada a Objetos
+
+Godot motor de videojuegos
+
+Correo:jpcharalamosh@unal.edu.co
+Office: 120, Aulas de Ingeniería
+
+Tésis en visualización de algoritmos
+Especializado en graficos computacionales
+
+gui editors, preguntar.
+
+3 o 4 notas entre talleres y proyecto final
+
+References:
+
+-Online course
+-Processing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

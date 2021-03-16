@@ -1,0 +1,26 @@
+Profesor: Jean Pierre Charalambos Hernandez
+Clase N°1 del 22/02/2021
+Programación Orientada a Objetos
+
+El profesor trabaja en graficos de computo no pensado en correr en la gpu sino en la cpu.
+
+No lo ve como un curso de POO sino mas bien como un curso intermedio y avanzado.
+
+Fernando Gonzales "filosofo"
+
+bitboard "Ajedrez"
+
+Arquitecturas CISC, y assemley en general
+Paul Carter, optimización de lenguajes compilados en assembly http://pacman128.github.io/pcasm/
+Y este es Programming from the ground up https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf
+
+The wire, serie nice
+
+test de turing
+
+Emacs programa con varios programas corriendo de inteligencia artificial
+
+Zombie filosófico
+
+Yo me llamo Miguel, soy de física, y he usado de manera básica Python, C y C++, dentro de mi hobbies está jugar futbol sala y escribir, y mi enfoque academico va al desarrollo web.
+

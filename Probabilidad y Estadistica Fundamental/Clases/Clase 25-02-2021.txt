@@ -1,0 +1,87 @@
+Profesor: Oscar Javier Pacheco Perez
+Clase N°2 del 25/02/2021
+Probabilidad y Estadistica Fundamental
+
+Introducción
+
+-Probabilidad y Estadística
+
+               /->Descriptiva
+              /
+-Estadística <
+			  \
+               \->Inferencial
+Primero veremos Descriptiva y después veremos probabilidad(Matemáticas) --> Inferencial
+
+
+Descriptiva
+	-Def básicas
+				 /->Cualitativas
+		Variables
+				 \				  /->
+		   		  \->Cuantitativas
+		   		  				  \->
+
+Graficas para variables cuantitativas se divide en Discretas y continuas
+
+Discretas se divide en:
+	-Pastel
+	-barras
+
+Continuo:
+	-Histogramas -->Distribución de frecuencias
+	Otro, no vi
+
+Descripción de datos con medidas númericas
+	-Medidas de tendencia central
+		-Media(Promedio)
+		-Mediana
+		-Moda
+	-Medidas de variabilidad
+		-Rango
+		-Varianza -> Desviacion estandar
+		-Coeficiente 
+	-Medidas de posición
+		-Cuantiles
+			-Cuantiles
+			-Deciles
+			-Percentiles
+	-Medidas de apuntamiento
+	-Medidas de sesgo
+
+------------------------------------------------------
+	
+	Descripción de datos por medio de gráficas
+
+Tipos de variables
+
+Definición: Una variable es una caracteristica de interes que posee cada elemento de una población y que se puede medir.
+
+Definición: Una unidad experimental es el individuo(objeto de estudio) en el que se mide una variable.
+
+Definición: Una población es el conjunto de mediciones de insteres para el investigador.
+
+Definición: Una muestra es un subconjunto de mediciones seleccionado de la población de interés.
+
+Definición: Resultan datos univariados cuando se mide una sola variable.
+
+Tipos de variables:
+	Definición: 
+		-Variables cualitativas: miden cualidad.
+			-Categoricas
+		-Variables cuantitativas. miden una cantidad numerica. Y se dividen en dos:
+			-Discretas: Una variable es discreta cuando solo puede tomar un número finito o infinito contable.
+			-Continuas: Cuando toma valores en un subconjunto de los números reales.
+
+Investigar
+(Escalas de medición:
+	-Nominal
+	-Ordinal
+	-La de razón
+	-La de intervalo)
+
+Empezamos a usar R
+
+
+
+

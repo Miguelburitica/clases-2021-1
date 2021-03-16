@@ -1,0 +1,69 @@
+Profesor: Jean Pierre Charalambos Hernandez
+Clase N°5 del 08/03/2021
+Programación Orientada a Objetos
+
+Repaso programación funcional
+
+Programación estructurada
+
+Formato JSon
+
+
+call by reference
+call by value
+
+call by sharing: https://en.wikipedia.org/wiki/Evaluation_strategy#Call_by_sharing
+
+Enciclopedia de series de enteros.
+
+Can every recursion be converted into iteration?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

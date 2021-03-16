@@ -1,0 +1,96 @@
+Profesor: Oscar Javier Pacheco Perez
+Clase N°4 del 04/03/2021
+Probabilidad y Estadistica Fundamental
+
+Medidas descriptivas
+	-Tendencia central
+		-Aritmética
+		-Mediana
+		-Moda
+	-Variabilidad
+		-Rango
+		-varianza
+		-desviación estandar
+	-Posición relativa
+		-Percentiles
+		-Cuartiles
+	-Medidas de forma
+		-Asimetria
+		-Curtosis
+
+
+Medidas de tendencia central
+	-Promedio(Media aritmetica):
+		-[X(barra) = (1/n) Sum desde i=1 hasta n de x_i]
+	-Mediana es el dato que se encuentra en el medio de un conjunto ordenado de datos.
+	x con ~ arriba=
+				-> X((n+1)/2) si n es par
+				-> (X(x/2)+X((n/2)+1))/2 si n es par
+	-Moda: dato que mas se repite
+
+	-Variabilidad:
+		-Rango: Dato mayor menos dato menor
+	-Varianza:
+		s^2= 1/(n-1) sum desde i01 hasta n de (x_i-xr aya arriba)^2
+	-desviación estandar
+		s = sqrt(s^2)
+	-Coeficiente de variación
+		CV = (s/x)*100%
+	-Posición relativa
+		-Percentiles:
+			Pk = (k(n+1))/100, k lo eliges tu
+		-cuartiles:
+			Dividen un conjunto ordenado en 4 partes iguales entonces 
+				Q_1 = (1/4)*(n+1)
+				Q_2 = (2/4)*(n+1) = mediana
+				Q_3 = (3/4)*(n+1)
+	-Medidas de forma:
+		-Asimetría:
+			-En una Campana de Gauss perfecta, la media, mediana y moda es igual, en este caso la asimetría es 0, si la distribución es asimetrica hacia la derecha, la A > 0, si es al revez, A > 0.
+			-denominado coeficiente de asimetría
+			-Momentos :
+			sea x una variable cuantitativa, y p pertenece a Naturales, el momento de orden p es :
+
+			M_p = (1/n)*sum desde i = 1 hasta n de (x_i)^p
+
+			-Y se denomina momento central de orden p a  m_p = (1/n) * sum desde i = 1 hasta n de (x_i - x barra)^p
+
+			As = (xbarra - moda)/s
+			As = (3(xbarra - mediana))/s
+
+		-Curtosis:
+			k = ((m_4)/s^4) - 3
+
+			leptocúrtica
+			Mesocúrtica
+			Platicúrtica
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
