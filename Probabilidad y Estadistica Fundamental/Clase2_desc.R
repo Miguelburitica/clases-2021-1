@@ -1,4 +1,4 @@
-#Gr·fico para variables cuantitativas discretas
+#Gr√°fico para variables cuantitativas discretas
 
 # Torta 
 
@@ -29,11 +29,11 @@ par(mfrow=c(1,1),
 pai = barplot(y,
               names.arg = x,
               ylim=c(0,200),
-              xlab="CategorÌa",
+              xlab="Categor√≠a",
               ylab="Gasto militar",
               col = c(rgb(0.3,0.1,0.4,0.6), rgb(0.3,0.5,0.4,0.6), rgb(0.3,0.9,0.4,0.6)),
-              main = "Gr·fico para gasto militar",
-              las=3)## Gr·fico de barra, Elaborarlo mejor
+              main = "Gr√°fico para gasto militar",
+              las=3)## Gr√°fico de barra, Elaborarlo mejor
 
 text(plot, y+0.4, paste("$", y, sep = ""), cex = 1, pos = 3)
 
@@ -92,16 +92,16 @@ pie(y,
 
 #################################
 
-##Gr·ficas para datos cuantitativos continuos
+##Gr√°ficas para datos cuantitativos continuos
 
-#distribuciÛn de frecuencias
+#distribuci√≥n de frecuencias
 
 #Histogramas
 
 #diagrama de cajas
 
 #ejemplo
-#FÛrmula sw sturges
+#F√≥rmula sw sturges
 
 dim(Libro1)
 
@@ -111,7 +111,7 @@ library(fdth)# Cargar este paquete para elaborar distribuciones de frecuencia
 
 ?fdt
 
-dist_f = fdt(Edad,breaks="Sturges") # calcula la distribuciÛn de frecuencias utilizando la regla Sturge
+dist_f = fdt(Edad,breaks="Sturges") # calcula la distribuci√≥n de frecuencias utilizando la regla Sturge
 
 Histograma = hist(Edad,
                   breaks = 6,
@@ -163,7 +163,7 @@ par(mfrow=c(1,1)) # particiona mi ventana grafica en 3x2.
 hist(Edad, 
      breaks = 8,
      ylim = c(0, 20),
-     main="histograma de frtecuencias") #histograma utilizando el numero de clases seg˙n Sturge
+     main="histograma de frtecuencias") #histograma utilizando el numero de clases seg√∫n Sturge
 
 plot(dist_f, type="cfh", col = c(rgb(1, 0, 0, 0.5)))   #histograma de frecuencias acumulada
 
@@ -189,7 +189,7 @@ legend("topleft",
 Encuesta
 
 
-plot(dist_f, type="fp")#PolÌgono de frecuencias
+plot(dist_f, type="fp")#Pol√≠gono de frecuencias
 
 plot(dist_f, type="d")# densidad
 

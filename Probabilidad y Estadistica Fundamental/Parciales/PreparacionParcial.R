@@ -1,8 +1,8 @@
 ############################################
-#Parcial N°1
-#Hacer un análisis descriptivo
+#Parcial N?1
+#Hacer un an?lisis descriptivo
 #
-#Miguel Antonio Buriticá Vargas
+#Miguel Antonio Buritic? Vargas
 #
 
 attach(Liga_de_futbol_Colombiano)
@@ -14,8 +14,10 @@ library(fdth)
 library(stats)
 library(dplyr)
 
+x = 34
+
 #Primer punto
-#Gráfica de barras
+#Gr?fica de barras
 
 respectoAlPromedio = c("Bajo el promedio", "En el promedio", "Sobre el promedio")
 
@@ -27,7 +29,7 @@ GolesLiga = c(1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955,
               1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994,
               1995, 1996, 1997, 1998, 1999, 2000, 2001)
 
-desempeñoGoles = c(1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 
+desempe?oGoles = c(1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 
             1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963,
             1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970,
             1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978,
@@ -35,7 +37,7 @@ desempeñoGoles = c(1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955,
             1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994,
             1995, 1996, 1997, 1998, 1999, 2000, 2001)
 
-length(desempeñoGoles)
+length(desempe?oGoles)
 length(GolesLiga)
 
 j = 0
@@ -55,36 +57,36 @@ j = 1
 funcionParaPromediar = f(){
         for (i in GolesLiga) {
         if (i < round(mean(Goles))){
-                desempeñoGoles[j] = respectoAlPromedio[1]
+                desempe?oGoles[j] = respectoAlPromedio[1]
         }else if(i == round(mean(Goles))){
-                desempeñoGoles[j] = respectoAlPromedio[2]
+                desempe?oGoles[j] = respectoAlPromedio[2]
         }else{
-                desempeñoGoles[j] = respectoAlPromedio[3]
+                desempe?oGoles[j] = respectoAlPromedio[3]
         }
         j = j + 1
         }
 }
 
-desempeñoGoles = c("")
+desempe?oGoles = c("")
 
-length(desempeñoGoles)
-tableDesempeñoGoles = table(desempeñoGoles)
-length(AñoLiga)
+length(desempe?oGoles)
+tableDesempe?oGoles = table(desempe?oGoles)
+length(A?oLiga)
 
-RespectoPromedioEdición = table(AñoLiga, desempeñoGoles)
+RespectoPromedioEdici?n = table(A?oLiga, desempe?oGoles)
 
 myColors = c(rgb(0.0, 0.7, 0.1, 1), rgb(0.9,0.0,0.0, 1), rgb(0.9,0.9,0.0,0.8), rgb(0.0, 1,0.0, 1), rgb(0.01,0.0,0.9,0.9), rgb(0.0,0.0,0.0,0.8), rgb(0.0,0.0,0.9,0.4))
-vecesCampeonDepartamento = table(`Departamento del Campeón`)
-DepartamentosCampeones = c("Antioquia", "Atlántico", "Bogotá", "Caldas", "Magdalena", "none", "Valle del Cauca")
-CiudadesCameponas = table(`Departamento del Campeón`)
+vecesCampeonDepartamento = table(`Departamento del Campe?n`)
+DepartamentosCampeones = c("Antioquia", "Atl?ntico", "Bogot?", "Caldas", "Magdalena", "none", "Valle del Cauca")
+CiudadesCameponas = table(`Departamento del Campe?n`)
 
 GraficoBarras = barplot(CiudadesCameponas,
                         ylim=c(0,35),
-                        xlab="Departamento del Campeón",
-                        ylab="Veces campeón",
+                        xlab="Departamento del Campe?n",
+                        ylab="Veces campe?n",
                         col = myColors,
-                        main = "Gráfico departamentos campeones",
-                        las=1)## Gráfico de barra, Elaborarlo mejor
+                        main = "Gr?fico departamentos campeones",
+                        las=1)## Gr?fico de barra, Elaborarlo mejor
 
 text(GraficoBarras,
      CiudadesCameponas+0.4, 
@@ -98,7 +100,7 @@ legend("topleft",
         bty = "n" , pch = 20, pt.cex = 2, cex = 0.8, horiz = FALSE, inset = c(0.05,0.05)
         )
 
-#Gráfica pastel
+#Gr?fica pastel
 
 pieChartDepartamentosCampeones = data.frame(
         DepartamentosCampeones,
@@ -120,7 +122,7 @@ pie(vecesCampeonDepartamento,
         labels = DepartamentosCampeones,
         col = myColors,
         radius = 1.2,
-        main = "Gráfico departamentos campeones",
+        main = "Gr?fico departamentos campeones",
         init.angle = 0,
         border = "white"
 )
@@ -129,7 +131,7 @@ pie(vecesCampeonDepartamento,
 
 View(Liga_de_futbol_Colombiano)
 
-AñoLiga = c(1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 
+A?oLiga = c(1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 
             1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963,
             1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970,
             1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978,
@@ -137,7 +139,7 @@ AñoLiga = c(1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955,
             1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994,
             1995, 1996, 1997, 1998, 1999, 2000, 2001)
 
-CampeónSinRepetir = c(1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 
+Campe?nSinRepetir = c(1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 
                       1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963,
                       1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970,
                       1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978,
@@ -146,25 +148,25 @@ CampeónSinRepetir = c(1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955,
                       1995, 9596, 9697, 1998, 1999, 2000, 2001)
 
 
-length(AñoLiga)
-length(CampeónSinRepetir)
+length(A?oLiga)
+length(Campe?nSinRepetir)
 
 j = 0
 k = 1
 
-for (i in Campeón) {
+for (i in Campe?n) {
         if (j != 23 && j != 25 && j != 57) {
-                paste("Campeón = ", Campeón[k])
-                CampeónSinRepetir[k] = i
+                paste("Campe?n = ", Campe?n[k])
+                Campe?nSinRepetir[k] = i
                 k = k + 1
         }
         j = j + 1
 }
 
-tablaDeCampeones = data.frame(AñoLiga, CampeónSinRepetir)
+tablaDeCampeones = data.frame(A?oLiga, Campe?nSinRepetir)
 
 
-GolesTotalesAño = c(1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 
+GolesTotalesA?o = c(1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 
                       1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963,
                       1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970,
                       1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978,
@@ -172,21 +174,21 @@ GolesTotalesAño = c(1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955,
                       1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994,
                       1995, 1996, 1997, 1998, 1999, 2000, 2001)
 
-length(AñoLiga)
-length(GolesTotalesAño)
+length(A?oLiga)
+length(GolesTotalesA?o)
 
 j = 0
 k = 1
 
 for (i in Goles) {
         if (j != 23 && j != 25 && j != 57) {
-                GolesTotalesAño[k] = i
+                GolesTotalesA?o[k] = i
                 k = k + 1
         }
         j = j + 1
 }
 
-tablaLigaGoles = data.frame(AñoLiga, GolesTotalesAño)
+tablaLigaGoles = data.frame(A?oLiga, GolesTotalesA?o)
 
 #Tercer Punto
 
