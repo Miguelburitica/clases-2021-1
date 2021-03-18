@@ -34,6 +34,8 @@ void setup() {
   stroke(48);
 
   noSmooth();
+  
+  bornRandomCells(width, height);
 
   background(0); // Fill in black in case cells don't cover all the windows
 }
@@ -46,8 +48,7 @@ void draw() {
     for (int y=0; y<height/cellSize; y++) {
       if (cells[x][y]==1) {
         fill(alive); // If alive
-      }
-      else {
+      } else {
         fill(dead); // If dead
       }
       rect (x*cellSize, y*cellSize, cellSize, cellSize);
@@ -73,13 +74,11 @@ void draw() {
     if (cellsBuffer[xCellOver][yCellOver]==1) { // Cell is alive
       cells[xCellOver][yCellOver]=0; // Kill
       fill(dead); // Fill with kill color
-    }
-    else { // Cell is dead
+    } else { // Cell is dead
       cells[xCellOver][yCellOver]=1; // Make alive
       fill(alive); // Fill alive color
     }
-  } 
-  else if (pause && !mousePressed) { // And then save to buffer once mouse goes up
+  } else if (pause && !mousePressed) { // And then save to buffer once mouse goes up
     // Save cells to buffer (so we opeate with one array keeping the other intact)
     for (int x=0; x<width/cellSize; x++) {
       for (int y=0; y<height/cellSize; y++) {
@@ -89,7 +88,20 @@ void draw() {
   }
 }
 
-
+void bornRandomCells(int breedte, int hoogte) {
+  // Initialization of cells
+  for (int x=0; x<breedte/cellSize; x++) {
+    for (int y=0; y<hoogte/cellSize; y++) {
+      float state = random (100);
+      if (state > probabilityOfAliveAtStart) { 
+        state = 0;
+      } else {
+        state = 1;
+      }
+      cells[x][y] = int(state); // Save state of each cell
+    }
+  }
+}
 
 void iteration() { // When the clock ticks
   // Save cells to buffer (so we opeate with one array keeping the other intact)
@@ -104,11 +116,11 @@ void iteration() { // When the clock ticks
     for (int y=0; y<height/cellSize; y++) {
       // And visit all the neighbours of each cell
       int neighbours = 0; // We'll count the neighbours
-      for (int xx=x-1; xx<=x+1;xx++) {
-        for (int yy=y-1; yy<=y+1;yy++) {  
+      for (int xx=x-1; xx<=x+1; xx++) {
+        for (int yy=y-1; yy<=y+1; yy++) {  
           if (((xx>=0)&&(xx<width/cellSize))&&((yy>=0)&&(yy<height/cellSize))) { // Make sure you are not out of bounds
             if (!((xx==x)&&(yy==y))) { // Make sure to to check against self
-              if (cellsBuffer[xx][yy]==1){
+              if (cellsBuffer[xx][yy]==1) {
                 neighbours ++; // Check alive neighbours and count them
               }
             } // End of if
@@ -117,12 +129,11 @@ void iteration() { // When the clock ticks
       } //End of xx loop
       // We've checked the neigbours: apply rules!
       if (cellsBuffer[x][y]==1) { // The cell is alive: kill it if necessary
-        if (neighbours == 1 || neighbours == 3 || neighbours == 5 || neighbours == 7) {
+        if (neighbours == 3 || neighbours == 4) {
           cells[x][y] = 0; // Die if it has 1, 3, 5 or 7 neighbours
         }
-      } 
-      else { // The cell is dead: make it live if necessary      
-        if (neighbours == 1 || neighbours == 3 || neighbours == 5 || neighbours == 7 ) {
+      } else { // The cell is dead: make it live if necessary      
+        if (neighbours == 3 || neighbours == 4) {
           cells[x][y] = 1; // if it has 1, 3, 5 or 7 neighbours
         }
       } // End of if
@@ -138,8 +149,7 @@ void keyPressed() {
         float state = random (100);
         if (state > probabilityOfAliveAtStart) {
           state = 0;
-        }
-        else {
+        } else {
           state = 1;
         }
         cells[x][y] = int(state); // Save state of each cell

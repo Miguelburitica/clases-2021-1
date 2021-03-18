@@ -1,0 +1,10 @@
+Profesor: Jean Pierre Charalambos Hernandez
+Clase N°8 del 17/03/2021
+Programación Orientada a Objetos
+
+Iniciamos con el JamBoard haciendo un esquema
+
+
+
+
+ 
