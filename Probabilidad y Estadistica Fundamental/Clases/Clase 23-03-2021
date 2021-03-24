@@ -1,0 +1,83 @@
+ Profesor: Oscar Javier Pacheco Perez
+Clase N°7 del 16/03/2021
+Probabilidad y Estadística Fundamental
+
+propiedad 3:
+
+	Proposición:
+		Para cualquier evento A, P(A) <= A
+
+		Demostración
+			P(A) + P(A^) = A
+			=> P(A) <= A
+
+propiedad 4:
+	Para dos eventos A y B, se tiene que P(AUB) = P(A) + P(B) 
+
+Resultados igualmente probables
+	P(A)=SUM(P(E_i)) = SUM(1/N) = n(A)/n(N)
+ 	SUM( desde i = 1 hasta N de (P(E_i))) = 1
+ 	P(A) = n(A)/n(S) SOLO CUANDO LOS EVENTOS EN "S" SON EQUIPROBABLES.
+
+Técnicas de conteo
+	-Regla del producto
+		Si un experimento resulta en nFormas y para cada una de esas n_1 formas existe n_2 maneras. Entonces el numero total de formas de realizar ese experimento n_1*n_2
+
+			ejemplo2: determinar el numero de almuerzos que se pueden consumir en un restaurante bajo las siguientes condiciones:
+			# entradas: 3
+			# platos fuertes: 10
+			# bebidas: 5
+			# postres: 4
+			Solución: 3*10*5*4
+	-Permutaciones y combinaciones
+		Def: Un subconjunto ordenado se llama "permutación".
+		El número de permutaciones de tamaño k que se pueden formar con n individuos u objetos en un grupo nPk (n permutado k).
+			Formula: nPk = (n!/(n - k)!)
+		Un subconjunto no ordenado se llama "combinación".
+		El numero de combinaciones de tamaño k que se pueden formar con n individuos u objetos en un grupo se simboliza nCk (n combinado k).
+			Formula: nCk = (n!/k!(n - k)!)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

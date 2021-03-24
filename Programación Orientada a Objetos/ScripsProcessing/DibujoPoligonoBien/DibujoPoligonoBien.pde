@@ -9,7 +9,7 @@ void draw() {
   fill(160,160,50);
   ellipse(500,600,33,33);
   strokeWeight(1);
-  dibujarPoligono(mouseX, mouseY, 100, 15);
+  dibujarPoligono(mouseX, mouseY, 100, 100);
   fill(160,160,50);
   ellipse(400,700,33,33);
 }
