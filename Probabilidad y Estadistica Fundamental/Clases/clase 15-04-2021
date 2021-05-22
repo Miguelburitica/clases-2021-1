@@ -1,0 +1,91 @@
+Profesor: Oscar Javier Pacheco Perez
+Clase N°12 del 13/04/2021
+Probabilidad y Estadística Fundamental
+ 
+Parametro de distribucion de probabilidad (P)
+
+	Ej3.9:
+
+	x = {1 si el cliente compra un portatil
+	     0 si el cliente compra un computador de escritorio}
+
+	 si el 20% de todas las comprar seleccionan un portátil p(x)?
+
+	 	p(0) = p(el siguiente clietne compra una pc de escritorio)
+	 	p(1) = el siguiente cliente compra una pc portátil
+
+	 	p(0) = 0.8
+	 	P(1) = 0.2
+
+	 Definición: Supongase que p(x) depende de la cantidad que pueda ser asignada a cualquiera de varios posibles valores y cada valor determina una distribución de probabilidad diferente.
+	 tal cantidad se conoce como parámetro de la distribución. El conjunto de todas las distribuciones de probabilidad con diferentes valores del parametro se llama familia de distribuciones
+
+	 Ej 3.12:
+
+	 	(B) 
+	 	
+	 	P(B) = p
+
+	 	x = el número de nacimientos observados
+
+	 	P(1) = p(x = 1) = p
+
+	 	P(2) = p(x = 2) = p*p
+
+Función de distribución acumulativa, (F)
+
+	Definción: la funcion de distribución acumulativa, F(x), de una VA discreta, x, con función de probabilidad, p(x) se define para cada número x como:
+
+		F(x) = P(x <= x) = suma desde t <= z de p(t)
+
+	Ej: x = 0, 1, 2, ... , 5
+
+	F(3) = P(x <= 3) = suma desde x = 0 de p(x)
+
+	Ejemplo 3.13
+
+	'''
+	"Ensayo de la ceguera"--Jose Saramago
+	"Caín"--Jose Saramago
+	'''
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

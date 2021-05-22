@@ -1,0 +1,94 @@
+Profesor: Oscar Javier Pacheco Perez
+Clase N°13 del 20/04/2021
+Probabilidad y Estadística Fundamental
+
+Valor esperado de una VA discreta
+
+anexo grupo wsp bloc de notas
+
+Reglas de valor esperado:
+
+	1. E(a*x + b) = a*E(x) + b
+
+
+Varianza de una VA aleatoria
+
+	Definicion: Sea p(x) y miu su valor esperado. Entonces la varianza de x, v(x) ó sigma² es:
+
+	v(x) = suma desde x de (x - miu)² * p(x= E[(x - miu)²]
+
+	La desviación estándar de x, 
+
+Formula abreviada para la varianza
+
+Reglas para la varianza
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

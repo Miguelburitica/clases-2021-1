@@ -1,0 +1,46 @@
+Profesor: Oscar Javier Pacheco Perez
+Clase N°11 del 08/04/2021
+Probabilidad y Estadística Fundamental
+
+Independencia
+
+demostrar P(A n B^) = P(A) * P(B^)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

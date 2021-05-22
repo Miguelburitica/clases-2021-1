@@ -1,0 +1,86 @@
+Profesor: Oscar Javier Pacheco Perez
+Clase N°14 del 22/04/2021
+Probabilidad y Estadística Fundamental
+
+Distribución hipergeométrica
+
+Supuestos
+1. La poblacion que ese va a muestrear se compone de N individuos, objetos o elementos (poblacion finita).
+
+2. Cada individuo puede ser caracterizado como exito(E) o fracaso (F) y hay M éxitos en la poblacion.
+
+3. Se selecciona una muestra de n individuos sin reemplazo de tal modo que cada subconjunto de tamaño n tenga la misma probabilidad.
+
+Definición:
+
+Si X es el número de exitos (E) en una muestra aleatoria de tamaño n de una poblacion N compuesta de M exitos y (N - M) fracasos, entonces, la función de probabilidad de X, llamada *distribucion hipergeometrica* es: 
+P(X = x) = y(x; n, M, N) = ((M_C_x)*((N-M)_C_(n-x)))/N_C_n
+
+x es entero, que satisface: 
+					max(0, n - N + M) <=  x <= min(n,m)
+
+Definición:
+
+Si x es una VA con distribución hipergeométrica con parámetros: n, M y N. Entonces el valor esperado y la varianza de x son:
+
+E(x) = n* (M/N)), V(X) = ((N - n)/(N - 1)) * n * (M/N) * (1 - (M/N))
+
+Distribución de Poisson:
+
+Sea x una VA de Poisson, la fdp de x es 
+	
+	P(X = x) = p(x) = pois(x;alpha)
+	
+	P(X = k) = (e^(-alpha*t) * (alpha*t)^k)/k!
+
+	t = unidad de tiempo
+
+	Ej: cajero en promedio atiende 3/15 min
+	cual es la probabilidad de que en 15 min atienda 5 personas?
+	sol:
+		P(X = 5) = (e^(-3) * 3^5)/5!
+
+	Definicion:
+	E(x) y V(x), siendo x una VA de poisson son:
+
+	E(x) = V(x) = alpha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

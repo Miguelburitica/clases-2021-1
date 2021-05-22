@@ -1,0 +1,102 @@
+Profesor: Oscar Javier Pacheco Perez
+Clase N°12 del 13/04/2021
+Probabilidad y Estadística Fundamental
+ 
+
+repaso quiz
+
+2. n = 10
+N = 90
+k =  20 hombres
+N-k = 70 mujeres
+
+A = la muestra incluye 4 hombres
+
+n(s) = (90)
+	   (10)
+
+n(A) = (20)(70)  
+       (04)(06)
+
+P(A) = n(A)/n(s) = 0.11
+
+
+Variables aleatorias y distribuciones de probabilidad
+
+	-Variables Aleatorias
+
+	Definición: para un espacio muestral S de algún experimento, una variable aleatoria (V.a) es cualquier regla que asocia un número real con cada resultado de S
+
+		Ej: Lanzar una moneda al aire.
+			
+			S = {c, t}
+
+			R = {0, 1}
+
+			Relación: S -> R
+			
+			D_x = {C, T}
+			R_x = {0, 1}
+
+	Definición: Cualquier VA cuyos unicos valores son 0 y 1 se llama VA de Bernoulli
+
+	- Dos tipos de VA
+	1. Definición: una VA discreta es aquella cuyos posibles valores constituyen un conjunto finito o infinito numerable.
+	2. Una VA continua es aquella cuyos posibles valores se encuentran en un subintervalo de los numeros reales.
+
+		Ej:P(x = c) = 0 ; x es continua.
+
+	Distrubuciones de proba para una VA discreta
+
+	- una tabla o una grafica en la que se relaciona los valores de la VA x y su respectiva probabilidad con las condiciones siguientes
+
+		P(x) = P(x = x); p(3) = p(x = 3)
+
+	Ej 3.7: 
+		x: el numero de dispensadores que están en servicio a las 9am
+
+	Definición: 
+	ka distribución de probabilidad o función masa de probabilidades de una VA discreta se define para cada número x como P(x) = P(x = x) : funcion de probabilidad 
+
+		= p(todas las s€S, X(s) = x)
+		
+	Ej 3.8:
+		x = # de defectuosos en el lote seleccionado
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+Profesor: Oscar Javier Pacheco Perez
+Clase N°14 del 22/04/2021
+Probabilidad y Estadística Fundamental
+
+Parcial 4 de mayo
+
+Distribuciones de probabilidad:
+
+1. Binomial
+
+	-Experimento binomial:
+	Es un experimento para el que se satisfacen las siguientes condiciones:
+
+		1. El experimento consta de n ensayos, n se fija en el experimento
+		2. Cada ensayo puede dar 2 unicos resultados: Exito (s) y fracaso(f) 
+
+		4. P(s) = p y P(f) = 1 - p y es constante para cada ensayo
+
+	Variable aleatoria binomial
+
+	Definición: Sea x una VA discreta, entonces, x se distribuye binomial si su función de probabilidad es:
+	b( x ; n , p ) = nCx * p^x * (1 - p)^(n - x) donde x = el numero de exitos en los n ensayos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

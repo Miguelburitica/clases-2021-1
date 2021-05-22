@@ -1,0 +1,34 @@
+Profesor: Oscar Javier Pacheco Perez
+Clase N°7 del 16/03/2021
+Probabilidad y Estadística Fundamental
+
+Probabilidad condicional
+
+Revisar pagina 67 del libro para repasar
+
+Definición de probabilidad condicional
+	-para dos eventos A y B con P(B) > 0, se define la probabilidad condicional de A dado B, o la probabilidad de A si ocurrió B, como
+
+		P( A | B ) = (P(AnB)/P(B)); P(B) > 0
+
+		P( B | A ) = (P(BnA)/P(A)); P(A) > 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

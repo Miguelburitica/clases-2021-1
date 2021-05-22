@@ -1,0 +1,41 @@
+Profesor: Oscar Javier Pacheco Perez
+Clase N°10 del 06/04/2021
+Probabilidad y Estadística Fundamental
+ 
+
+P(AnB) = P(B|A)*P(A))
+
+Regla de Bayes
+
+hacer los ejercicios impares seccion 2.4 pag 92
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
